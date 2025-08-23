@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #0F4C75; /* deep blue text */
+  --color-primary: #3282B8;   /* medium blue */
+  --color-secondary: #0F4C75; /* deep blue */
+  --color-accent: #BBE1FA;    /* light blue */
+  --color-bg: #f9fafb;        /* subtle section bg */
+  --color-text: #1B262C;      /* dark navy text */
+  --transparent: rgba(255, 255, 255, 0.2);
+  --text: #fff;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #1B262C;    /* dark navy */
+    --foreground: #BBE1FA;    /* light blue text */
+    --color-primary: #0F4C75; /* deepen primary in dark */
+    --color-secondary: #3282B8;
+    --color-accent: #BBE1FA;
+    --color-bg: #0a0a0a;
+    --color-text: #1B262C;
+    --transparent: rgba(255, 255, 255, 0.2);
+  }
+}
+
+/* Base */
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Headings example */
+h1 { color: var(--text); }
+
+p {
+  color: var(--text);
+}
+
+
+/* Buttons */
+a {
+  background-color: var(--color-primary);
+  color: var(--text);
+  border: 0;
+  padding: .6rem 1rem;
+  border-radius: .5rem;
+  transition: background-color .2s ease;
+}
+a:hover { background-color: var(--color-accent); }
+
+
+/* Header + Navbar (uses your variables) */
+header {
+  background-color: var(--color-text); /* deep blue bar */
+  padding: 1rem 0;
+  border: 0;
+}
+
+
+/* optional: make header sticky */
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  backdrop-filter: saturate(1.2) blur(2px);
+}
