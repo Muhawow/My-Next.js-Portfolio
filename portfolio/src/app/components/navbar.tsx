@@ -26,13 +26,18 @@ export default function Navbar(): JSX.Element {
         </Link>
       </li>
       <li>
-        <Link href="#projects" className="transition-colors text-[--color-light] hover:text-[--color-primary]">
+        <Link href="/projects" className="transition-colors text-[--color-light] hover:text-[--color-primary]">
           Projects
         </Link>
       </li>
       <li>
-        <Link href="#contact" className="transition-colors text-[--color-light] hover:text-[--color-primary]">
-          Contact
+        <Link href="/writings" className="transition-colors text-[--color-light] hover:text-[--color-primary]">
+          Writings
+        </Link>
+      </li>
+      <li>
+        <Link href="/resume" className="transition-colors text-[--color-light] hover:text-[--color-primary]">
+          Resume
         </Link>
       </li>
     </>
@@ -40,10 +45,10 @@ export default function Navbar(): JSX.Element {
 
   return (
     <header className="sticky top-0 z-50">
-      <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-2xl px-4 sm:px-6 lg:px-8">
         <div
-          className="mt-4 rounded-2xl border border-white/20 shadow-lg ring-1 ring-black/5
-                     backdrop-blur-md supports-[backdrop-filter]:bg-white/20 dark:supports-[backdrop-filter]:bg-neutral-900/30"
+          className="mt-12 rounded-2xl border border-white/20 shadow-lg ring-1 ring-black/5
+                     backdrop-blur-md dark:supports-[backdrop-filter]:bg-neutral-900/30"
         >
           <nav className="flex h-14 items-center justify-center px-4">
             <ul className="hidden md:flex items-center gap-8 text-sm">{NavLinks}</ul>

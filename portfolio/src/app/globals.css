@@ -10,6 +10,7 @@
   --color-text: #1B262C;      /* dark navy text */
   --transparent: rgba(255, 255, 255, 0.2);
   --text: #fff;
+  --navbar-buttons: #1a2226;
 }
 
 @theme inline {
@@ -50,14 +51,14 @@ p {
 
 /* Buttons */
 a {
-  background-color: var(--color-primary);
+  background-color: var(--navbar-buttons) ;
   color: var(--text);
   border: 0;
   padding: .6rem 1rem;
   border-radius: .5rem;
   transition: background-color .2s ease;
 }
-a:hover { background-color: var(--color-accent); }
+a:hover { background-color: #31383c; }
 
 
 /* Header + Navbar (uses your variables) */
