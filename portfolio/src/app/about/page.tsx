@@ -19,10 +19,25 @@ export default function RootLayout({
         {children}
       </body>
       <section id="about" className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-12">
-        <h1 className="text-3xl font-bold mb-4">About Me!</h1>
-        <p className="text-[--color-text]">
+        {/* <h1 className="text-3xl font-bold mb-4">About Me!</h1> */}
+        {/* <p className="text-[--color-text]">
           This is your content area. Scroll to see the sticky, glassy navbar stay put.
-        </p>
+        </p> */}
+
+        {/* <div className="py-8 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-12"></div> */}
+        <div className="grid grid-flow-col grid-rows-2 gap-4">
+          <div className="row-span-3">
+            <img className="h-100 w-90 object-cover mask-r-from-30% rounded-lg" src="/img/wow.jpg" alt="Sunset in the mountains"></img>
+          </div>
+          <div className="col-span-2 ">
+            <h1 className="text-5xl text-[--color-text]">Muhammad Guarddin</h1>
+            <p className="w-full py-8 text-[--color-text] text-wrap text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+          </div>
+          <div className="col-span-1 row-span-2 ...">
+            <p className="w-full text-[--color-text] text-wrap text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+          
+          </div>
+        </div>
       </section>
     </html>
   )
