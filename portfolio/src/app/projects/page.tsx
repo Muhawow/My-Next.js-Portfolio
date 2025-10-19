@@ -23,6 +23,66 @@ export default function RootLayout({
         <p className="text-[--color-text]">
           This is your content area. Scroll to see the sticky, glassy navbar stay put.
         </p>
+
+        <div className="py-8 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-12">
+
+        <div className="max-w-sm rounded my-custom-grid-item overflow-hidden shadow-lg">
+          <img className="w-fit" src="/img/bumi.png" alt="Sunset in the mountains"></img>
+          <div className="px-6 py-4">
+            <div className="font-bold text-xl mb-2">Portable Adzan Caller</div>
+            <p className="text-gray-700 text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+            </p>
+          </div>
+          <div className="px-6 pt-4 pb-2">
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">RaspberryPi</span>
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Barnard</span>
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">tmux</span>
+          </div>
+        </div>
+          <div className="max-w-sm rounded my-custom-grid-item overflow-hidden shadow-lg">
+          <img className="w-full" src="/img/bumi.png" alt="Sunset in the mountains"></img>
+          <div className="px-6 py-4">
+            <div className="font-bold text-xl mb-2">Smart CPR</div>
+            <p className="text-gray-700 text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+            </p>
+          </div>
+          <div className="px-6 pt-4 pb-2">
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Micro:bit</span>
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Hackathon</span>
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Python</span>
+          </div>
+        </div>
+        <div className="max-w-sm rounded my-custom-grid-item overflow-hidden shadow-lg">
+          <img className="w-full" src="/img/bumi.png" alt="Sunset in the mountains"></img>
+          <div className="px-6 py-4">
+            <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
+            <p className="text-gray-700 text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+            </p>
+          </div>
+          <div className="px-6 pt-4 pb-2">
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+          </div>
+        </div>
+        <div className="max-w-sm rounded my-custom-grid-item overflow-hidden shadow-lg">
+          <img className="w-full" src="/img/bumi.png" alt="Sunset in the mountains"></img>
+          <div className="px-6 py-4">
+            <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
+            <p className="text-gray-700 text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+            </p>
+          </div>
+          <div className="px-6 pt-4 pb-2">
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+          </div>
+        </div>
+        </div>  
       </section>
     </html>
   )
