@@ -64,8 +64,9 @@ a:hover { background-color: #31383c; }
 
 /* Header + Navbar (uses your variables) */
 header {
-  background-color: var(--color-text); /* deep blue bar */
-  padding: 1rem 0;
+  /* background-color: var(--color-text); deep blue bar */
+  /* padding: 1rem 0; */
+  /* margin-bottom: auto; */
   border: 0;
 }
 

@@ -44,7 +44,7 @@ export default function Navbar(): JSX.Element {
   )
 
   return (
-    <header className="sticky top-0 z-50">
+    <header className="sticky top-0 z-50 py-4 ">
       <div className="mx-auto max-w-2xl px-4 sm:px-6 lg:px-8">
         <div
           className="mt-12 rounded-2xl border border-white/20 shadow-lg ring-1 ring-black/5
