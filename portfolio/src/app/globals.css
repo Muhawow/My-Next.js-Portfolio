@@ -35,6 +35,21 @@
   }
 }
 
+
+.fa-icon { 
+  font-size: 2px;        /* controls size */
+  line-height: 1;         /* avoids extra vertical space */
+  color: var(--foreground);
+  transition: color .2s ease;
+}
+
+.fa-icon--lg { font-size: 40px; }
+.fa-icon--sm { font-size: 20px; }
+
+/* optional hover color */
+.fa-link:hover .fa-icon { color: var(--color-primary); }
+
+
 /* Base */
 body {
   background-color: var(--background);
@@ -61,6 +76,10 @@ a {
 }
 a:hover { background-color: #31383c; }
 
+.a_icon{
+ background-color: transparent ;
+}
+
 
 /* Header + Navbar (uses your variables) */
 header {
@@ -83,3 +102,4 @@ header {
 .my-custom-grid-item {
   background-color: var(--color-my-grid-color);
 }
+
