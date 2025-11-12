@@ -24,7 +24,7 @@
 /* Dark mode */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #1B262C;    /* dark navy */
+    --background: #0c1214;    /* dark navy */
     --foreground: #BBE1FA;    /* light blue text */
     --color-primary: #0F4C75; /* deepen primary in dark */
     --color-secondary: #3282B8;
@@ -69,16 +69,30 @@ p {
 a {
   background-color: var(--navbar-buttons) ;
   color: var(--text);
-  border: 0;
   padding: .6rem 1rem;
-  border-radius: .5rem;
+  border-radius: .6rem;
   transition: background-color .2s ease;
+  
 }
-a:hover { background-color: #31383c; }
+a:hover { 
+  background-color: #31383c; 
+}
 
 .a_icon{
- background-color: transparent ;
+  color: var(--text);
+  padding: 1rem 1rem;
+  border-radius: 50%;
+  transition: background-color .2s ease;
+  background-color: transparent; 
 }
+.a_icon:hover{
+  background-color: #31383c; 
+}
+
+svg{
+  /* background-color: #0F4C75; */
+}
+
 
 
 /* Header + Navbar (uses your variables) */
