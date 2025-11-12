@@ -1,6 +1,7 @@
 // import './globals.css'
 import type { Metadata } from 'next'
 import Navbar from '../components/navbar'
+import Spline from "@splinetool/react-spline"
 
 export const metadata: Metadata = {
   title: 'My App',
@@ -23,6 +24,9 @@ export default function RootLayout({
         <p className="text-[--color-text]">
           Coming Soon
         </p>
+         <Spline
+        scene="https://prod.spline.design/vkQLGgNHZJVrKIUa/scene.splinecode" 
+      />
       </section>
     </html>
   )

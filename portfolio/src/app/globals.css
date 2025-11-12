@@ -93,6 +93,9 @@ svg{
   /* background-color: #0F4C75; */
 }
 
+.planet{
+  background-color: transparent;
+}
 
 
 /* Header + Navbar (uses your variables) */
