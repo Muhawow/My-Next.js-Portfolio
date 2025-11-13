@@ -43,7 +43,7 @@ export default function RootLayout({
           <div className="max-w-sm rounded my-custom-grid-item overflow-hidden shadow-lg">
           <img className="w-full" src="/img/bumi.png" alt="Sunset in the mountains"></img>
           <div className="px-6 py-4">
-            <div className="font-bold text-xl mb-2">Smart CPR</div>
+            <div className="font-bold text-xl mb-2">Smar CPR</div>
             <p className="text-gray-700 text-base">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
             </p>
