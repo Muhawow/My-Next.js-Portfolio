@@ -1,7 +1,6 @@
 // import './globals.css'
 import type { Metadata } from 'next'
 import Navbar from '../components/navbar'
-import Spline from "@splinetool/react-spline"
 
 export const metadata: Metadata = {
   title: 'My App',
@@ -22,11 +21,34 @@ export default function RootLayout({
       <section id="about" className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-12">
         <h1 className="text-3xl font-bold mb-4">My Writings</h1>
         <p className="text-[--color-text]">
-          Coming Soon
+          
         </p>
-         <Spline
-        scene="https://prod.spline.design/vkQLGgNHZJVrKIUa/scene.splinecode" 
-      />
+
+      <div className="py-8 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-12">
+
+        <div className="max-w-sm rounded my-custom-grid-item overflow-hidden shadow-lg">
+          <img className="w-fit" src="/img/shortessay.png" alt="Sunset in the mountains"></img>
+          <div className="px-6 py-4">
+          <div className="font-bold text-xl mb-2">Call to Prayer in Non-Major Muslim Country Using Raspberry Pi</div>
+            <p className="text-gray-700 text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+            
+            </p>
+           
+          </div>
+          <div className='flex items-stretch px-6 py-4'>
+             <div className='self-center '>
+              <a className='text-xl a_writings' target='_blank' href='/pdf/adzan.pdf'>Read</a>
+              </div>
+          </div>
+          <div className="px-6 pt-4 pb-2">
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">小論文</span>
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Short Essay</span>
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Raspberry Pi</span>
+          </div>
+        </div>
+      </div>
+
       </section>
     </html>
   )

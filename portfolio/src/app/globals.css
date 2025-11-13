@@ -9,7 +9,7 @@
   --color-bg: #f9fafb;        /* subtle section bg */
   --color-text: #1B262C;      /* dark navy text */
   --transparent: rgba(255, 255, 255, 0.2);
-  --text: #fff;
+  --text: #f2e6e6;
   --navbar-buttons: #1a2226;
 }
 
@@ -24,7 +24,7 @@
 /* Dark mode */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0c1214;    /* dark navy */
+    --background: #0b1214;    /* dark navy */
     --foreground: #BBE1FA;    /* light blue text */
     --color-primary: #0F4C75; /* deepen primary in dark */
     --color-secondary: #3282B8;
@@ -87,6 +87,14 @@ a:hover {
 }
 .a_icon:hover{
   background-color: #31383c; 
+}
+
+.a_writings{
+  background-color: var(--color-secondary);
+}
+
+.a_writings:hover{
+  color: #fff;
 }
 
 svg{

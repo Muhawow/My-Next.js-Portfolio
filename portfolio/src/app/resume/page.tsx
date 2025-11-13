@@ -23,6 +23,7 @@ export default function RootLayout({
         <p className="text-[--color-text]">
          Coming Soon
         </p>
+
       </section>
     </html>
   )
