@@ -23,7 +23,7 @@ export default function WritingsPage() {
       <div className="py-8 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-12">
 
         <div className="max-w-sm rounded my-custom-grid-item overflow-hidden shadow-lg">
-          <img className="w-fit" src="/img/shortessay.png" alt="Sunset in the mountains"></img>
+          <img className="w-fit" src="./img/shortessay.png" alt="Sunset in the mountains"></img>
           <div className="px-6 py-4">
           <div className="font-bold text-xl mb-2">Call to Prayer in Non-Major Muslim Country Using Raspberry Pi</div>
             <p className="text-gray-700 text-base">

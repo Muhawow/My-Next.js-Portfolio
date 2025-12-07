@@ -22,7 +22,7 @@ export default function AboutPage() {
         {/* <div className="py-8 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-12"></div> */}
         <div className="grid grid-flow-col grid-rows-2 gap-4">
           <div className="row-span-3">
-            <img className="h-100 w-90 object-cover mask-r-from-30% rounded-lg" src="/img/wow.jpg" alt="Sunset in the mountains"></img>
+            <img className="h-100 w-90 object-cover mask-r-from-30% rounded-lg" src="./img/wow.jpg" alt="Sunset in the mountains"></img>
           </div>
           <div className="col-span-2 ">
             <h1 className="text-5xl text-[--color-text]">Muhammad Guarddin</h1>

@@ -1,12 +1,16 @@
-/**
+    /**
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
   output: 'export',
-  distDir: 'dir',
-  images: {
-    unoptimized: true,
-  },
+  distDir: 'Deploy',
+  // images: {
+  //   unoptimized: true,
+  // },
+
+  // basePath: '',
+  // assetPrefix: '',
+  
   // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
   // trailingSlash: true,
  
